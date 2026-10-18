@@ -1,4 +1,4 @@
-
+import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import axios from "axios";
 
@@ -28,7 +28,8 @@ function Login() {
       const token = response.data.accessToken;
       localStorage.setItem("token", token);
 
-      alert("Login successful!");
+      //alert("Login successful!");
+      navigate("/dashboard");
       console.log("Login successful");
     } catch (err) {
       console.log("ERROR STATUS:", err.response?.status);
