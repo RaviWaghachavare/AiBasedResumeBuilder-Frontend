@@ -393,7 +393,7 @@ body {
     font-size: 24px;
   }
 }
-
+}
 /* Login page - Register link */
 .login-card .register-footer {
   margin-top: 24px;
@@ -414,4 +414,4 @@ body {
   color: #3730a3;
   text-decoration: underline;
 }
-}
+
