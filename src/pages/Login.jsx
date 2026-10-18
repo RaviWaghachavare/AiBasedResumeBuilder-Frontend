@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import axios from "axios";
-
+import { Link } from "react-router-dom";
 function Login() {
 
   const navigate = useNavigate();
@@ -76,7 +76,12 @@ function Login() {
         <button type="submit" disabled={loading}>
           {loading ? "Signing in..." : "Sign In"}
         </button>
+        <p className="register-footer">
+  Don't have an account?{" "}
+  <Link to="/register">Create account</Link>
+</p>
       </form>
+      
     </div>
   );
 }

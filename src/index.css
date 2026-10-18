@@ -278,4 +278,140 @@ body {
   .welcome-card h2 {
     font-size: 25px;
   }
+  
+.register-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 28px 16px;
+  background: linear-gradient(135deg, #f3f5ff, #ecebff);
+}
+
+.register-card {
+  width: 100%;
+  max-width: 460px;
+  padding: 36px;
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0 16px 45px rgba(35, 39, 85, 0.1);
+}
+
+.register-brand {
+  color: #5146c8;
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.register-heading h1 {
+  margin: 0 0 9px;
+  font-size: 28px;
+  color: #182033;
+}
+
+.register-heading p {
+  margin: 0 0 25px;
+  color: #727b92;
+  line-height: 1.5;
+}
+
+.register-card label {
+  display: block;
+  margin: 18px 0 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #30384e;
+}
+
+.register-card input {
+  display: block;
+  width: 100%;
+  padding: 13px 14px;
+  border: 1px solid #d9deea;
+  border-radius: 9px;
+  font-size: 15px;
+  background: white;
+}
+
+.register-card input:focus {
+  outline: 2px solid #c5caff;
+  border-color: #6657d9;
+}
+
+.register-card form > button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 14px;
+  border: 0;
+  border-radius: 9px;
+  background: #5146c8;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.register-card form > button:hover {
+  background: #4035ad;
+}
+
+.register-card form > button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.register-footer {
+  margin: 24px 0 0;
+  text-align: center;
+  font-size: 14px;
+  color: #727b92;
+}
+
+.register-footer a {
+  color: #5146c8;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.register-error {
+  color: #dc2626;
+  font-size: 14px;
+}
+
+.register-success {
+  color: #15803d;
+  font-size: 14px;
+}
+
+@media (max-width: 480px) {
+  .register-card {
+    padding: 25px 20px;
+  }
+
+  .register-heading h1 {
+    font-size: 24px;
+  }
+}
+
+/* Login page - Register link */
+.login-card .register-footer {
+  margin-top: 24px;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 14px;
+  color: #727b92;
+}
+
+.login-card .register-footer a {
+  color: #5146c8;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.login-card .register-footer a:hover {
+  color: #3730a3;
+  text-decoration: underline;
+}
 }
