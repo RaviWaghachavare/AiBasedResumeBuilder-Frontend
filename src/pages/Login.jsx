@@ -40,7 +40,7 @@ function Login() {
 
       setError(
         err.response?.data?.message ||
-        "Login failed. Check browser console."
+        "Login failed! Check browser console."
       );
     } finally {
       setLoading(false);
