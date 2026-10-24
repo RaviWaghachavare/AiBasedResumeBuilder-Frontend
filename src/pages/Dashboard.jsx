@@ -109,7 +109,7 @@ function Dashboard() {
           <div className="empty-state">
             <div className="document-icon">📄</div>
             <h3>No resumes yet</h3>
-            <p>Create your first resume to get started.</p>
+            <p>Create your first resume here to get started.</p>
 
             <button
               className="secondary-button"
