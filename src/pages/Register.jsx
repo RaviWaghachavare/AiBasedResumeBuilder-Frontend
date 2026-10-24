@@ -63,7 +63,7 @@ function Register() {
         </div>
 
         <form onSubmit={handleRegister}>
-          <label htmlFor="username">Full Name</label>
+          <label htmlFor="username">Your Full Name</label>
           <input
             id="username"
             name="username"
