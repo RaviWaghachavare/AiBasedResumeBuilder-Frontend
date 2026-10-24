@@ -51,7 +51,7 @@ function Login() {
     <div className="login-page">
       <form className="login-card" onSubmit={handleLogin}>
         <h1>Welcome Back</h1>
-        <p>Sign in to your AI Resume Builder account</p>
+        <p>Sign in to your AI Resume Builder account here</p>
 
         <label>Email</label>
         <input
