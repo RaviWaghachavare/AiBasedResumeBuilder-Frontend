@@ -65,7 +65,7 @@ function Dashboard() {
         <section className="welcome-card">
           <div>
             <span className="eyebrow">YOUR CAREER STARTS HERE</span>
-            <h2>Build a resume that opens doors.</h2>
+            <h2>Build a resume that opens doors...</h2>
             <p>
               Create, manage and improve your professional resume
               in one place.
