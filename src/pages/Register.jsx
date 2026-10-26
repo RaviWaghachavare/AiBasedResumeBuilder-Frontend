@@ -59,11 +59,11 @@ function Register() {
 
         <div className="register-heading">
           <h1>Create your account</h1>
-          <p>Build your professional future with AI.</p>
+          <p>Build Your Professional Future With AI.</p>
         </div>
 
         <form onSubmit={handleRegister}>
-          <label htmlFor="username">Your Full Name</label>
+          <label htmlFor="username">Your Full Name.</label>
           <input
             id="username"
             name="username"
