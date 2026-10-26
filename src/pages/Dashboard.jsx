@@ -103,7 +103,7 @@ function Dashboard() {
         <section className="recent-section">
           <div>
             <h2>Recent Resumes</h2>
-            <p>Your latest resume documents will appear here.</p>
+            <p>Your latest resume and documents will appear here.</p>
           </div>
 
           <div className="empty-state">
